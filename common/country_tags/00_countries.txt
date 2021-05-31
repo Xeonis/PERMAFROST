@@ -1,0 +1,3 @@
+WRK = "countries/Worker land.txt"
+STP = "countries/Steperverg land.txt"
+OST = "countries/Osterson.txt"

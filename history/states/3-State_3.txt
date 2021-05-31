@@ -1,0 +1,19 @@
+state={
+	id=3
+	name="STATE_3"
+	provinces={
+	8809
+	6568
+	5044
+	}
+		history={
+		owner = OST
+		add_core_of = OST
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=49
+	buildings_max_level_factor=1.000
+	state_category = pastoral  
+}
