@@ -1,6 +1,6 @@
 ﻿capital = 799
 
-oob = "WRK_1936"
+oob = "OST_2051"
 
 set_research_slots = 4
 set_stability = 0.7
@@ -58,22 +58,22 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Kenneth Adams"
-	picture = "OST_G1"
+	picture = "OST_G2.dds"
 	traits = { trait_cautious defensive_doctrine trickster winter_specialist }
-	skill = 2
+	skill = 4
 	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 1
+	defense_skill = 4
+	planning_skill = 3
 	logistics_skill = 2
 }
 
-#create_corps_commander = {
-#	name = "Archer Foster"
-#	picture = "OST_G1"
-#	traits = { winter_specialist }
-#	skill = 3
-#	attack_skill = 4
-#	defense_skill = 3
-#	planning_skill = 2
-#	logistics_skill = 4
-#}
+create_corps_commander = {
+	name = "Archer Foster"
+	picture = "OST_G1.dds"
+	traits = { winter_specialist }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
