@@ -19679,8 +19679,8 @@ state={
 19690
 	}
 		history={
-		owner = WRK
-		add_core_of = WRK
+		owner =
+		add_core_of =
 		buildings = {
 			infrastructure = 1
 		}
