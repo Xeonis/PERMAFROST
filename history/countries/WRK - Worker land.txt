@@ -83,10 +83,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 5
-	fascism = 40
-	communism = 10
-	neutrality = 45
+	democratic = 0
+	fascism = 100
+	communism = 0
+	neutrality = 0
 }
 
 create_country_leader = {
@@ -96,51 +96,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
-		exiled
-		union_man
+#
 	}
-}
-
-create_field_marshal = {
-	name = "Kenneth Adams"
-	picture = "Workers-general.dds"
-	traits = { trait_cautious defensive_doctrine trickster winter_specialist }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Archer Foster"
-	picture = "dsa.dds"
-	traits = { winter_specialist }
-	skill = 3
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Xever Johnson"
-	picture = "Dobren.dds"
-	traits = {  armor_officer }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Jameson Allen"
-	picture = "daw.dds"
-	traits = { # }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4
 }

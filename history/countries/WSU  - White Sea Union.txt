@@ -1,0 +1,65 @@
+﻿capital = 5
+
+oob = "WSU_2051"
+
+set_research_slots = 4
+set_stability = 0.4
+set_war_support = 0.1
+#add_ideas = {
+#}
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	basic_heavy_tank = 1
+}
+
+set_convoys = 1
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 21
+	fascism = 29
+	communism = 5
+	neutrality = 45
+}
+
+create_country_leader = {
+	name = "Vlad Coptesvsky"
+	desc = "POLITICS_DELL_DESC"
+	picture = "WSU_L1.dds"
+	expire = "2055.1.1"
+	ideology = centrism
+	traits = {
+#
+	}
+}
+
+create_field_marshal = {
+	name = "Kenneth Adams"
+	picture = "WSU_G1.dds"
+	traits = { guerilla_fighter }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}

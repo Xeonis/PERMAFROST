@@ -2,26 +2,14 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 2000.1.1.12
+		date = 2051.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "WRK"
+		default_country = "OST"
 		default = yes
 		
-		"WRK"={
-			history = "TES_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				
-				
-			}
-			focuses = {
-			
-			}
-		}
-		
-				"STP"={
-			history = "TES_GATHERING_STORM_DESC"
-			ideology = fascism
+		"OST"={
+			history = "OST_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
 				
 				

@@ -1,0 +1,29 @@
+state={
+	id=5
+	name="STATE_5"
+	provinces={
+4370 8840 1426 3292 3629 254
+	}
+		history={
+		victory_points = {
+			4370 5
+		}
+		victory_points = {
+			8840 15
+		}
+		owner = WSU
+		add_core_of = WSU
+		buildings = {
+			4370 = {
+				naval_base = 6
+			}
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+		}
+	}
+	manpower=6431
+	buildings_max_level_factor=1.000
+	state_category = city
+}
